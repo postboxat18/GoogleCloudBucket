@@ -1,0 +1,63 @@
+https://stackoverflow.com/questions/12131044/accessing-google-cloud-storage-from-android-oauth2
+authendication
+https://github.com/googleapis/google-cloud-java#authentication
+authendiacte.
+
+
+
+GET gsutil URI
+https://cloud.google.com/storage/docs/gsutil
+gs://BUCKET_NAME/OBJECT_NAME
+
+CREATE A BUCKET
+//File tempFile = File.createTempFile("file", ".txt");
+
+https://stackoverflow.com/questions/15098657/reading-a-resource-sound-file-into-a-byte-array
+audio file path to byte[] using createfrom to upload
+
+https://stackoverflow.com/questions/9316986/how-to-get-the-size-of-an-image-in-android
+Bitmap for upload image in byte[] using createfrom() to upload
+
+
+https://cloud.google.com/storage/docs/authentication#json-api
+https://cloud.google.com/storage/docs/authentication#storage-upload-object-java
+upload object using curl
+
+
+when upload data using Storage.Objects.Insert we have to add dependencies.
+"implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.2'"
+
+
+https://cloud.google.com/java/docs/reference/google-cloud-nio/latest/com.google.cloud.storage.contrib.nio.CloudStoragePath
+upload path
+
+    https://github.com/googleapis/java-storage/blob/15e79b5206588150d98fb59f85d38577da0ba1d3/samples/snippets/src/main/java/com/example/storage/object/UploadObjectFromMemory.java
+upload file and size
+
+https://cloud.google.com/storage/docs/uploading-objects#storage-upload-object-java
+upload files
+
+https://console.cloud.google.com/storage/browser/eordersall.appspot.com;tab=objects?forceOnBucketsSortingFiltering=false&authuser=1&project=eordersall&prefix=&forceOnObjectsSortingFiltering=false
+bucket
+
+https://console.cloud.google.com/iam-admin/serviceaccounts/details/117450766534303616861;edit=true/permissions?authuser=1&project=eordersall
+server accounts Grant access to add member and key.
+
+https://cloud.google.com/storage/docs/viewing-editing-metadata#storage-view-object-metadata-java
+getobjectmetadata for blobname
+
+https://cloud.google.com/storage/docs/listing-objects#prereq-code-samples
+get bucket data details.
+
+https://cloud.google.com/storage/docs/downloading-objects#prereq-code-samples
+downloadObjectIntoMemory for objectName //get download objects get bucket specific details
+
+
+
+
+https://github.com/googleapis/java-storage/blob/2770a38409e89f4f291ebf9ef23db0def0458b02/samples/snippets/src/main/java/com/example/storage/bucket/PrintBucketAcl.java
+code -print bucket
+
+
+https://github.com/Triple-T/gradle-play-publisher/issues/141
+json format
